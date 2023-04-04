@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body background="AdobeStock_236302118_Preview.jpeg" text="white">
+    <h1><i>Hello Speed</i> </h1>
+    <hr color="tan">
+    <form action="linkcreation.html">
+        <label for=""> <i>Email:</label><input type="email" placeholder="Email" required><br><br>
+        <label for="">Username:</label><input type="text" placeholder="Username" maxlength="10" minlength="10" required><br><br>
+        <label for="">Password:</label><input type="password" maxlength="10" minlength="10" required><br><br>
+        <label for="">Phone:</label><input type="text" style="width:25px" value="+91" readonly><input type="tel"><br><br>
+        <label for=""></label><input type="submit"><br>
+    </form><br><br>
+    <label for="">Select Gender:</label>
+    <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="m" id="male" value="male"><label for="male">Male</label> <br>
+        <input type="radio" name="m" id="female" value="female"><label for="female">Female</label><br>
+        <input type="radio" name="m" id="o" value="Others"><label for="o">Others</label>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Select your Skills</legend>
+        <input type="checkbox" name="skills" id="j"><label for="j">Java</label><br>
+        <input type="checkbox" name="skills" id="sq"><label for="sq">SQL</label><br>
+        <input type="checkbox" name="skills" id="js"><label for="js">JavaScipt</label><br>
+        <input type="checkbox" name="skills" id="html"><label for="html">HTML</label><br>
+        <input type="checkbox" name="skills" id="css"><label for="css">CSS</label><br>
+    </fieldset><br><br>
+    <label for="">Select your state:</label>
+    <select name="" id="">
+        <option value="">----select----</option>
+        <option value="">Karnataka</option>
+        <option value="">Tamil Nadu</option>
+        <option value="">Maharashtra</option>
+        <option value="">West Bengal</option>
+        <option value="">Kerala</option>
+        <option value="">Goa</option>
+        <option value="">Jharkhand</option>
+        <option value="">Delhi</option>
+        <option value="">Bihar</option>
+    </select><br><br>
+    <label for="">Select your City:</label>
+    <select name="" id="" required>
+        <option value="">------select------</option>
+            <option value="">Bengaluru</option>
+            <option value="">Chennai</option>
+            <option value="">Kochi</option>
+            <option value="">Mysore</option>
+            <option value="">Vishakapatnam</option>
+            <option value="">Mumbai</option>
+            <option value="">Delhi</option>
+            <option value="">Patna</option>
+            <option value="">Kolkata</option>
+            <option value="">Ahmedabad</option>
+            <option value="">Jaipur</option>
+            <option value="">Ranchi</option>
+        </select><br><br>
+    <label for="">Current time:</label>
+    <input type="time">
+    <fieldset>
+        <legend>Personalisation:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="date">Time</label>
+        <input type="time" id="date" name="birthday"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset><br>
+    <fieldset>
+        <legend>Feedback</legend>
+        <textarea name="" id="" cols="50" rows="5"></textarea><br>
+        <input type="submit"><input type="reset">
+        <button onclick="sample()">Check Values</button>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Upload a file</legend>
+        <input type="file"><br><br>
+        <input type="submit">
+    </fieldset>
+</body>
+
+</html>

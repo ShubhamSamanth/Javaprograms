@@ -1,0 +1,59 @@
+body {
+    font-family: 'Agency FB', 'Brush Script MT';
+    background-color: #a3aaba;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(177, 153, 93);
+    color: #eeeef8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #260966;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #333;
+    color: #b93f3f;
+    padding: 5px;
+    text-align: center;
+}
